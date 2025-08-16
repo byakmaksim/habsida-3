@@ -63,6 +63,9 @@ header {
 .slide {
   scroll-snap-align: start;
 }
+.slide img{
+width: 240px;
+}
 
 .dots {
   text-align: center;
@@ -90,6 +93,8 @@ header {
     overflow: hidden;
     max-height: 200px; /* Высота примерно для 6 элементов (2 ряда по 3) */
     transition: max-height 0.3s ease;
+    margin: 0px;
+  
   }
 
   .slider-track.expanded {
